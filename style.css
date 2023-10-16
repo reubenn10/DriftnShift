@@ -110,9 +110,18 @@ header {
 }
 .text p {
     margin: 00.5rem 0 2rem;
+    margin-right: 7.5rem;
 }
 .text h2 {
     font-size: 1.2rem;
+}
+.text h6 {
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #006d18;
+    color: #fff;
+    margin-right: 5rem;
+    padding: 10px;
 }
 .app-stores {
     display: flex;
@@ -163,6 +172,19 @@ header {
 .form-container form .btn:hover {
     background: var(--main-color);
 }
+.form-container a {
+    padding: 10px;
+    border: none;
+    border-radius: 0.3rem;
+    background: #003716;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.form-container a:hover {
+    background: #000000;
+    color: #ddd;
+}
 .heading {
     text-align: center;
 }
@@ -172,6 +194,8 @@ header {
 }
 .heading h1 {
     font-size: 2rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
 }
 .ride-container {
     display: grid;
@@ -196,8 +220,7 @@ header {
     font-weight: 500;
     margin: 1.4rem 0 0.5rem;
 }
-.ride-container .box .bx:hover 
-/*.ride-container .box .bxs-calendar-check*/ {
+.ride-container .box .bx:hover {
     background: var(--gradient);
     color: #fff;
 }
@@ -255,6 +278,60 @@ header {
 .services-container .box .btn:hover {
     background: var(--main-color);
 }
+
+
+.chauffeur h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.team-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+}
+
+.team-list li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+.team-list h2 {
+    font-size: 1.5rem;
+}
+
+.team-list img {
+    max-width: 100%;
+    height: 220px;
+    border-radius: 0.5rem;
+}
+
+.team-list p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+.compare h1 {
+    text-align: center;
+}
+.compare h2 {
+    text-align: center;
+}
+.compare a {
+    padding: 10px;
+    background-color: #003716;
+    color: #fff;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
 .about-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -477,6 +554,272 @@ header {
         grid-template-columns: repeat(auto-fit,minmax(254px));
     }
 }
+
+/*Offers Tab*/
+.body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+h5 {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 110px;
+}
+
+.offer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px;
+}
+
+.offer {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    max-width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.offer img {
+    max-width: 100%;
+    height: auto;
+}
+
+.offer h2 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.offer p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+/*Compare*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+h5 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.comparison-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    margin: 20px;
+}
+
+.comparison-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.comparison-box h4 {
+    font-size: 1.5rem;
+}
+
+.comparison-box ul {
+    list-style: none;
+    padding: 0;
+}
+
+.comparison-box ul li {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+.home .text a {
+    padding: 4px;
+    background-color: #003716;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #eeeff1;
+    margin-top: 5px;
+    border-radius: 0.5rem;
+}
+
+h5 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.car-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,auto));
+    margin: 50px;
+    gap: 30px;
+}
+
+.car-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+.car-card h4 {
+    font-size: 1.5rem;
+}
+
+.car-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.car-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.car-card ul li {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+.subtext {
+    text-align: center;
+    font-size: 2rem;
+    padding: 5px;
+}
+
+
+/*custcare*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+h6 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2rem;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 20px;
+    margin: 20px;
+}
+
+.contact-info, .customer-support, .emergency-info {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: 45%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h2, .customer-support, h2 {
+    font-size: 1.5rem;
+}
+
+.contact-info p, .customer-support, .emergency-info p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.customer-support p:first-child {
+    font-weight: bold;
+}
+
+.customer-support a {
+    text-decoration: none;
+    color: #007bff;
+}
+.guide h2 {
+    padding: 1.4rem;
+    background-color: #000000;
+    color: #fff;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: 2rem;
+}
+.guide p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-left: 2.3rem;
+}
+
+/*About*/
+
+.about-us {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-us p {
+    font-size: 1rem;
+    margin: 20px 0;
+}
+.team-member {
+    margin: 20px;
+}
+
+.team-member img {
+    max-width: 100%;
+    height: 250px;
+}
+
+.team-member h2 {
+    font-size: 1.5rem;
+}
+
+.team-member p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+.team-founder {
+    margin: 20px;
+}
+
+.team-founder img {
+    max-width: 100%;
+    height: 250px;
+}
+
+.team-founder h2 {
+    font-size: 1.5rem;
+}
+
+.team-founder p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+
+
+
 
 
 

@@ -27,6 +27,7 @@ sr.reveal('.heading',{delay: 500, origin: 'top'})
 sr.reveal('.ride-container .box',{delay: 300, origin: 'top'})
 
 sr.reveal('.services-container .box',{delay: 300, origin: 'top'})
+sr.reveal('.services',{delay: 300, origin: 'top'})
 
 sr.reveal('.about-container .box',{delay: 300, origin: 'top'})
 sr.reveal('.about-img',{delay: 300, origin: 'top'})
